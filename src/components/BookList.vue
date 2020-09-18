@@ -9,7 +9,7 @@ export default {
 	name: "Booklist",
 	data() {
 		return {
-		  msg: 'Welcome to Your Vue.js App',
+		  msg: 'All Books',
 		};
   },
 } 
