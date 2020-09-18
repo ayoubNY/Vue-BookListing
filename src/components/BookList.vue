@@ -6,12 +6,12 @@
 
 <script>
 export default {
-	name: "Booklist"
-	data:{
+	name: "Booklist",
+	data() {
 		return {
-			title:"All Books";
+		  msg: 'Welcome to Your Vue.js App',
 		};
-	}
+  },
 } 
 </script>
 
