@@ -2,7 +2,7 @@
 	<div>
 		<h1>{{title}}
 		<ul>
-			<li v-for="book in books" >{{book.title}}:{{book.author}}</li>
+			<book-item v-for="book in books" :book="book"></book-item>
 		</ul>
 		</h1>
 	</div>
@@ -20,10 +20,10 @@ export default {
 			{title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
 			{title: 'American Gods', author: 'Neil Gaiman'},
 			{title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
-		]
+			]
 		};
 	},
-	components: BookItem
+	components: {BookItem}
 } 
 </script>
 
