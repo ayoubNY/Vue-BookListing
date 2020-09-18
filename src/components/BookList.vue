@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import BookItem from './BookItem';
+
 export default {
 	name: "Booklist",
 	data() {
@@ -21,6 +23,7 @@ export default {
 		]
 		};
 	},
+	components: BookItem
 } 
 </script>
 
