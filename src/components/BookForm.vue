@@ -12,9 +12,9 @@ export default {
 	props: ['books'],
 	data(){
 		 return {
-			booktitle : '',
+			bookTitle : '',
 			bookAuthor : ''
-		}
+		};
 	},
 	methods: {
 		bookSubmit(bookTitle, bookAuthor){
